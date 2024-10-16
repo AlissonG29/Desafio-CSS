@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.88px;
+    color: #2c2b2a;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+img {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #050a36;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    
+}
+
+.button-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 1300px){
+    .button-sing-up {
+        margin: auto;
+        width: 91px;
+        height: 31px;
+        float: right;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    h1 {
+        display: block;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        top: -1331px;
+        left: 1185px;
+    }
+
+    p {
+        display: block;
+        width: 304px;
+        height: 165px;
+        top: -1242px;
+        left: 1171px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin: 30px 40px; 
+    }
+
+    .button-learn-more {
+        display: block;
+        margin: 100px;
+    }
+
+    img {
+        position: static;
+        height: 288px;
+        margin: 10%;
+    }
+
+    div {
+        Width: 390px;
+        Height:500px;
+        margin-left: 50px;
+    }
+}
